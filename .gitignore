@@ -1,0 +1,33 @@
+# Editor settings
+.vscode/
+
+# Environment files
+.env
+*/.env
+*/venv
+
+# Node.js
+*/node_modules
+*/build
+
+# Client specific
+client/.next
+
+# Celery worker
+celery-worker/__pycache__/
+celery-worker/*.log
+celery-worker/*.pid
+celery-worker/celery-env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+*/*_result.txt
+crewai/result.txt
+crewai/transcript_analytics_crew
